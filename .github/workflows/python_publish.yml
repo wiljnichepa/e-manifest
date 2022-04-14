@@ -3,10 +3,7 @@ name: Upload Python Package
 on:
   pull_request:
     types:
-      - closed
-
-permissions:
-  contents: read
+      - labeled
 
 jobs:
   deploy:
